@@ -1,0 +1,8 @@
+ORIG_PN=gtk-im-extra
+
+inherit gnome2 cvs
+
+DESCRIPTION="GTK+ third-party input modules"
+HOMEPAGE="http://gtk-im-extra.sourceforge.net/"
+CVS_URI=":pserver:anonymous@${ORIG_PN}.cvs.sourceforge.net:/cvsroot/${ORIG_PN}"
+CVS_DATE="${PV}"

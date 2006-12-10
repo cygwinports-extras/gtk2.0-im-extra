@@ -1,0 +1,89 @@
+gtk2-x11-im-extra
+------------------------------------------
+gtk-im-extra is a collection of third party GTK+ input method modules.
+
+Runtime requirements:
+  cygwin-1.5.22-1
+  glib2-2.12.4-1
+  gtk2-x11-2.10.6-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.22-1
+  autoconf2.5-2.60-2
+  automake1.9-1.10-1
+  binutils-20060817-1
+  cygport-0.2.7-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  libtool1.5-1.5.23a-1
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-1
+
+Canonical website:
+  http://gtk-im-extra.sourceforge.net/
+
+Canonical download:
+  Sourceforge.net CVS
+
+-------------------------------------------
+
+Build instructions:
+  unpack gtk2-x11-im-extra-20061106-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gtk2-x11-im-extra-20061106-X.cygport all
+
+This will create:
+  /usr/src/gtk2-x11-im-extra-20061106-X-src.tar.bz2
+  /usr/src/gtk2-x11-im-extra-20061106-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/gtk2-x11-im-extra.sh
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-am-et.dll
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-am-et.la
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-churchslavonic.dll
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-churchslavonic.la
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-devphon.dll
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-devphon.la
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-esperanto.dll
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-esperanto.la
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-ipa-xsampa.dll
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-ipa-xsampa.la
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-latinplus.dll
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-latinplus.la
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-linearb.dll
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-linearb.la
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-tamil99.dll
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-tamil99.la
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-thai.dll
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-thai.la
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-ti-er.dll
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-ti-er.la
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-ti-et.dll
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-ti-et.la
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-yiddish-n.dll
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-yiddish-n.la
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-yiddish-r.dll
+  /usr/lib/gtk-2.0/2.10.0/immodules/im-yiddish-r.la
+  /usr/share/doc/Cygwin/gtk2-x11-im-extra-20061106.README
+  /usr/share/doc/gtk2-x11-im-extra-20061106/AUTHORS
+  /usr/share/doc/gtk2-x11-im-extra-20061106/COPYING
+  /usr/share/doc/gtk2-x11-im-extra-20061106/ChangeLog
+  /usr/share/doc/gtk2-x11-im-extra-20061106/README
+
+------------------
+
+Port Notes:
+
+----- version 20061106-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
