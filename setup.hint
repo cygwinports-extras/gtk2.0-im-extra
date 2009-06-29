@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin glib2 gtk2-x11
+requires: glib2 gtk2-x11
 sdesc: "Third-party GTK+ input modules"
 ldesc: "gtk-im-extra is a collection of third party GTK+ input method
 modules."
